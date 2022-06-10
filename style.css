@@ -1,0 +1,112 @@
+html,body,div,header,ul,li,button,img,span{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family:IBM Plex Sans;
+    font-size: ;
+    box-sizing: border-box;
+    background: none;
+}
+body{
+    height: 100%;
+   width: 100%;
+   background-color: #000000;
+}
+.container{
+   height: 100%;
+   display: block;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: ce;
+    margin: 42px 0;
+    width: 229px;
+    height: 68px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 61px;
+}
+
+.caixa_usuario{
+    max-width:700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    margin: 0 20px ;
+    width: 160px;
+}
+
+li button{
+    border: 1px transparent;
+}
+
+button img{
+    width: 100%;
+    border:1px solid transparent;
+    border-radius: 7px;
+}
+
+li:hover img{
+    border:1px solid #ffffff;
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+li:hover span{
+    color: #ffffff;
+    transition: 0,3s;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+}
+
+.box_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.box_btn button{
+    border:solid 1.5px #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #000000;
+    display: block;
+    padding: 10px 31px 10px 31px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 70px;
+}
+
+.box_btn button:hover{
+    background-color:#ffffff ;
+    color: #000000;
+    transition: 0.5s;
+}
